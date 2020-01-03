@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\boehm\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\boehm\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_SPAMFiltering.-1642805159.00" t="ExcludeRecursive" />
+    <e p="C:\Users\boehm\Documents\C# Machine Learning Projects\sources\SPAMFiltering" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive">
+        <e p="Accord.3.8.0\build\Accord.dll.config" t="Include" />
+      </e>
+      <e p="SPAMFiltering" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DataAnalyzer.cs" t="Include" />
+        <e p="DataVisualizer.cs" t="Include" />
+        <e p="EmailPreparator.cs" t="Include" />
+        <e p="FrameFileManager.cs" t="Include" />
+        <e p="License-LGPL.txt" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include" />
+        <e p="SPAMFiltering.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="SPAMFiltering.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
