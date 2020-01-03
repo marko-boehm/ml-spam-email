@@ -1,11 +1,8 @@
 ﻿using Deedle;
 using EAGetMail;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SPAMFiltering
 {
@@ -20,7 +17,6 @@ namespace SPAMFiltering
 
         public string RawDataPath { get; set; }
 
-        
         private Frame<int, string> PrepareMails(string[] files)
         {
             var rows = files.AsEnumerable()
