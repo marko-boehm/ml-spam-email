@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\boehm\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\boehm\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_SPAMFiltering.-1642805159.00" t="ExcludeRecursive" />
-    <e p="C:\Users\boehm\Documents\C# Machine Learning Projects\sources\SPAMFiltering" t="IncludeFlat">
+    <e p="C:\Projects\ml-spam-email\source" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive">
         <e p="Accord.3.8.0\build\Accord.dll.config" t="Include" />
       </e>
@@ -26,5 +24,7 @@
       </e>
       <e p="SPAMFiltering.sln" t="IncludeFlat" />
     </e>
+    <e p="C:\Users\boehm\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\boehm\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_SPAMFiltering.2115378157.00" t="ExcludeRecursive" />
   </component>
 </project>

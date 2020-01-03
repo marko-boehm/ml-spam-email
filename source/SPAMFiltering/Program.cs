@@ -2,9 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Net.Mime;
-using System.Text;
-using System.Threading.Tasks;
 using Deedle;
 
 namespace SPAMFiltering
@@ -13,7 +10,7 @@ namespace SPAMFiltering
     {
         static void Main(string[] args)
         {
-            var workingDirectory = @"C:\Users\boehm\Documents\C# Machine Learning Projects\sources\SPAMFiltering\SPAMFiltering\Resources";//Directory.GetCurrentDirectory();
+            var workingDirectory = @"C:\Projects\ml-spam-email\data";//Directory.GetCurrentDirectory();
             
             Console.WriteLine("Starting Data Preparation.");
             // Prepare raw data
@@ -64,15 +61,17 @@ namespace SPAMFiltering
             Console.WriteLine("* Starting analyzing words ...");
             // Look at Top 10 terms that appear in Ham vs. Spam emails
             var topN = 10;
+            // Load stop word list
+            ISet<string> stopWords = new HashSet<string>(File.ReadLines(Path.Combine(workingDirectory, "data-preparation\\stopwords.txt")));
             
-            var hamTermFrequencies = dataAnalyzer.HamTermFrequencies();
-            var hamTermProportions = dataAnalyzer.HamTermProportions();
+            var hamTermFrequencies = dataAnalyzer.HamTermFrequencies(stopWords);
+            var hamTermProportions = dataAnalyzer.HamTermProportions(stopWords);
             var topHamTerms = hamTermProportions.Keys.Take(topN);
             var topHamTermsProportions = hamTermProportions.Values.Take(topN);
             var hamEmailCount = dataAnalyzer.HamEmailCount();
 
-            var spamTermFrequencies = dataAnalyzer.SpamTermFrequencies();
-            var spamTermProportions = dataAnalyzer.SpamTermProportions();
+            var spamTermFrequencies = dataAnalyzer.SpamTermFrequencies(stopWords);
+            var spamTermProportions = dataAnalyzer.SpamTermProportions(stopWords);
             var topSpamTerms = spamTermProportions.Keys.Take(topN);
             var topSpamTermsProportions = spamTermProportions.Values.Take(topN);
             var spamEmailCount = dataAnalyzer.SpamEmailCount();
