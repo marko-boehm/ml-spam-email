@@ -1,3 +1,2 @@
-# ml-spam-email
-Machine Learning - Spam Email
-Inspired by book - C# Machine Learning Projects
+# Machine Learning - Spam Email
+Inspired by: C# Machine Learning Projects
