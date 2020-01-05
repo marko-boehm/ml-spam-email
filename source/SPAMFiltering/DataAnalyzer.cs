@@ -102,6 +102,14 @@ namespace SPAMFiltering
 
             return series;
         }
+
+        public Frame<string, string> ConvertSpamFrequenciesToFrame(Series<string, double> spamFrequSeries)
+        {
+            var dataFrame = Frame.FromRowKeys(spamFrequSeries.Keys);
+            dataFrame.AddColumn("num_occurences", spamFrequSeries.Values);
+
+            return dataFrame;
+        }
         
         
         

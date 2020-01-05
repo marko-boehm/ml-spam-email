@@ -8,6 +8,7 @@
       <e p="SPAMFiltering" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Classifier.cs" t="Include" />
         <e p="DataAnalyzer.cs" t="Include" />
         <e p="DataVisualizer.cs" t="Include" />
         <e p="EmailPreparator.cs" t="Include" />
