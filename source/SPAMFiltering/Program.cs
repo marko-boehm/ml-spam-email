@@ -10,12 +10,12 @@ namespace SPAMFiltering
     {
         static void Main(string[] args)
         {
-            var workingDirectory = @"C:\Projects\ml-spam-email\data";//Directory.GetCurrentDirectory();
-            
-            Console.WriteLine("Starting Data Preparation.");
+            var workingDirectory = @"C:\Projects\ml-spam-email\data";
+
+            Console.WriteLine("Data Preparation ...");
             // Prepare raw data
             var preparationFileLocation = Path.Combine(workingDirectory, "data-preparation\\transformedMails.csv");
-            Frame<int, string> mailDataFrame;
+            Frame<int, string> transformedMailData;
             bool loadFileFromDisk = false;
             
             // Check if preparation file already exists
@@ -29,7 +29,7 @@ namespace SPAMFiltering
             }
 
             if (loadFileFromDisk) {
-                mailDataFrame = FrameFileManager.ReadFromCsv(
+                transformedMailData = FrameFileManager.ReadFromCsv(
                     preparationFileLocation,
                     hasHeaders: true,
                     inferTypes: false,
@@ -41,24 +41,24 @@ namespace SPAMFiltering
                 {
                     RawDataPath = Path.Combine(workingDirectory, "raw-data"),
                 };
-                mailDataFrame = mailPreparator.ExtractMailContentToFrame();
+                transformedMailData = mailPreparator.ExtractMailContentToFrame();
 
                 // Make frame persistent
-                FrameFileManager.SaveToCsv(mailDataFrame, preparationFileLocation);
+                FrameFileManager.SaveToCsv(transformedMailData, preparationFileLocation);
             }
 
-            Console.WriteLine("Data Preparation step done!"); 
+            Console.WriteLine("Data Preparation finished!"); 
             
             
             // Analyse data
-            Console.WriteLine("Start Data Anlayzer ...");
-            var dataAnalyzer = new DataAnalyzer(mailDataFrame);
+            Console.WriteLine("Data Analyzing ...");
+            var dataAnalyzer = new DataAnalyzer(transformedMailData);
             var transformedMailSubjects = dataAnalyzer.TransformMailSubjectsToWords();
             Console.WriteLine("* Subject Word Transformation: Row Count {0}, Column Count {1}", transformedMailSubjects.RowCount, transformedMailSubjects.ColumnCount);
             
             FrameFileManager.SaveToCsv(transformedMailSubjects, Path.Combine(workingDirectory, "data-preparation\\subjectWordFrame-alphaonly.csv"));
 
-            Console.WriteLine("* Starting analyzing words ...");
+            Console.WriteLine("* Analyzing words ...");
             // Look at Top 10 terms that appear in Ham vs. Spam emails
             var topN = 10;
             // Load stop word list
@@ -93,7 +93,18 @@ namespace SPAMFiltering
             DataVisualizer.Top10HamTermsChart(topHamTerms, topHamTermsProportions, spamTermProportions);
             DataVisualizer.Top10SpamTermsChart(topSpamTerms, topSpamTermsProportions, hamTermProportions);
             
-            Console.WriteLine("Data Analyzing step done!");
+            Console.WriteLine("Data Analyzing finished!");
+            
+            Console.WriteLine("Data Classifying ...");
+            var classifier = new Classifier(
+                dataAnalyzer.ConvertSpamFrequenciesToFrame(spamTermFrequencies),
+                transformedMailData,
+                transformedMailSubjects);
+
+            classifier.ClassifyData(minOccurences: 25);
+            classifier.PrintMatrix();
+            
+            Console.WriteLine("Data Classifying finished!");
             Console.ReadKey();
         }
     }
