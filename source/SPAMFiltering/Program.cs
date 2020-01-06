@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Accord.MachineLearning.Bayes;
+using Accord.Statistics.Distributions.Univariate;
+using Accord.Statistics.Models.Regression;
 using Deedle;
 
 namespace SPAMFiltering
@@ -96,13 +99,23 @@ namespace SPAMFiltering
             Console.WriteLine("Data Analyzing finished!");
             
             Console.WriteLine("Data Classifying ...");
-            var classifier = new Classifier(
+            Console.WriteLine("... by Naive Bayes");
+            var naiveBayesClassifier = new Classifier<NaiveBayes<BernoulliDistribution>>(
                 dataAnalyzer.ConvertSpamFrequenciesToFrame(spamTermFrequencies),
                 transformedMailData,
                 transformedMailSubjects);
 
-            classifier.ClassifyData(minOccurences: 25);
-            classifier.PrintMatrix();
+            naiveBayesClassifier.ClassifyData(minOccurences: 25);
+            naiveBayesClassifier.PrintMatrix();
+            
+            Console.WriteLine("... by Logistic Regression");
+            var logisticRegressionClassifier = new Classifier<LogisticRegression>(
+                dataAnalyzer.ConvertSpamFrequenciesToFrame(spamTermFrequencies),
+                transformedMailData,
+                transformedMailSubjects);
+
+            logisticRegressionClassifier.ClassifyData(minOccurences: 25);
+            logisticRegressionClassifier.PrintMatrix();
             
             Console.WriteLine("Data Classifying finished!");
             Console.ReadKey();

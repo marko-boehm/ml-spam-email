@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc43d15a-b7f8-4154-9c54-a6e795836eeb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SPAMFiltering/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPAMFiltering/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SPAMFiltering/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPAMFiltering/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPAMFiltering/DataAnalyzer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SPAMFiltering/DataAnalyzer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPAMFiltering/Classifier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SPAMFiltering/Classifier.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SPAMFiltering/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SPAMFiltering/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPAMFiltering/SPAMFiltering.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SPAMFiltering/SPAMFiltering.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,23 +16,37 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5DC18E6B-7FFC-58E9-A745-03836B8EC15D/f5/b2ec5b88/Frame`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5DC18E6B-7FFC-58E9-A745-03836B8EC15D/e6/b32ffbd1/FrameModule.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5DC18E6B-7FFC-58E9-A745-03836B8EC15D/89/4fb40b2c/Frame.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/427BF9A5-3BF2-4319-9156-B32EEA0BC96E/43/60dbcc99/TrainValSplit`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95B4B630-A4AF-4E9A-8336-D9E36310DACA/45/62d2d85c/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95B4B630-A4AF-4E9A-8336-D9E36310DACA/2b/e4277981/HashSet`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7FC3099F-0238-4288-9BC6-2F2F8E4A7977/c6/3dd0e48c/ISupervisedLearning`3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3EE6A215-3DFC-46DD-9FBB-38DA1EC4F280/89/36df4525/ITransform`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7FC3099F-0238-4288-9BC6-2F2F8E4A7977/a0/a7d44851/IterativeReweightedLeastSquares`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SPAMFiltering/FrameFileManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/862B9365-843C-4BF1-BA93-210C124BB523/ca/fd25f6b1/Regex.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SPAMFiltering/DataVisualizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SPAMFiltering/Classifier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3EE6A215-3DFC-46DD-9FBB-38DA1EC4F280/1b/70efa681/ICovariantTransform`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SPAMFiltering/DataAnalyzer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/d8/091241d0/Func`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SPAMFiltering/EmailPreparator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5DC18E6B-7FFC-58E9-A745-03836B8EC15D/27/59013f6b/FrameBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/427BF9A5-3BF2-4319-9156-B32EEA0BC96E/57/7e1e0a6f/CreateLearnerFromSubset`3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SPAMFiltering/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5DC18E6B-7FFC-58E9-A745-03836B8EC15D/e9/975df70a/Series`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3EE6A215-3DFC-46DD-9FBB-38DA1EC4F280/bf/c7f70040/ITransform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5DC18E6B-7FFC-58E9-A745-03836B8EC15D/02/bf065917/ISeries`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/427BF9A5-3BF2-4319-9156-B32EEA0BC96E/2e/b817ae37/CrossValidation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/427BF9A5-3BF2-4319-9156-B32EEA0BC96E/32/41b757db/CrossValidationResult`3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2E8D4299-BFA6-4998-B1C3-A8500640BE45/04/2667a87e/__Error.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/00/f0a69ade/Double.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/427BF9A5-3BF2-4319-9156-B32EEA0BC96E/32/6ed2511b/NaiveBayesLearning`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7FC3099F-0238-4288-9BC6-2F2F8E4A7977/d0/612ad105/BinaryLikelihoodClassifierBase`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5DC18E6B-7FFC-58E9-A745-03836B8EC15D/e6/b32ffbd1/FrameModule.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5DC18E6B-7FFC-58E9-A745-03836B8EC15D/89/4fb40b2c/Frame.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7FC3099F-0238-4288-9BC6-2F2F8E4A7977/e2/ef08674d/GeneralizedLinearRegression.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95B4B630-A4AF-4E9A-8336-D9E36310DACA/2b/e4277981/HashSet`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/862B9365-843C-4BF1-BA93-210C124BB523/ca/fd25f6b1/Regex.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7FC3099F-0238-4288-9BC6-2F2F8E4A7977/97/b04aa247/LogisticRegression.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5DC18E6B-7FFC-58E9-A745-03836B8EC15D/e9/975df70a/Series`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/427BF9A5-3BF2-4319-9156-B32EEA0BC96E/47/aa96a631/NaiveBayes`1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -43,8 +55,8 @@
         <option value="$PROJECT_DIR$/SPAMFiltering/DataVisualizer.cs" />
         <option value="$PROJECT_DIR$/SPAMFiltering/EmailPreparator.cs" />
         <option value="$PROJECT_DIR$/SPAMFiltering/DataAnalyzer.cs" />
-        <option value="$PROJECT_DIR$/SPAMFiltering/Classifier.cs" />
         <option value="$PROJECT_DIR$/SPAMFiltering/Program.cs" />
+        <option value="$PROJECT_DIR$/SPAMFiltering/Classifier.cs" />
       </list>
     </option>
   </component>
@@ -59,7 +71,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunManager">
     <configuration name="SPAMFiltering" type="DotNetProject" factoryName=".NET Project">
@@ -108,6 +120,9 @@
       <workItem from="1578048664077" duration="153000" />
       <workItem from="1578049361565" duration="3919000" />
       <workItem from="1578224746646" duration="14656000" />
+      <workItem from="1578247471895" duration="21000" />
+      <workItem from="1578250103263" duration="4807000" />
+      <workItem from="1578329734517" duration="5208000" />
     </task>
     <servers />
   </component>
@@ -134,90 +149,90 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1071" height="464" key="DebuggerActiveHint/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578245758721" />
-    <state width="1214" height="484" key="GridCell.Tab.0.bottom" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.0.bottom" timestamp="1578338502624">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.0.bottom/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state width="1214" height="484" key="GridCell.Tab.0.center" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.0.bottom/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502624" />
+    <state width="1222" height="345" key="GridCell.Tab.0.center" timestamp="1578338502624">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.0.center/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state width="1214" height="484" key="GridCell.Tab.0.left" timestamp="1578247106727">
+    <state width="1222" height="345" key="GridCell.Tab.0.center/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502624" />
+    <state width="1222" height="345" key="GridCell.Tab.0.left" timestamp="1578338502624">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.0.left/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106727" />
-    <state width="1214" height="484" key="GridCell.Tab.0.right" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.0.left/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502624" />
+    <state width="1222" height="345" key="GridCell.Tab.0.right" timestamp="1578338502624">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.0.right/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state width="1214" height="484" key="GridCell.Tab.1.bottom" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.0.right/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502624" />
+    <state width="1222" height="345" key="GridCell.Tab.1.bottom" timestamp="1578338502625">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.1.bottom/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state width="1214" height="484" key="GridCell.Tab.1.center" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.1.bottom/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502625" />
+    <state width="1222" height="345" key="GridCell.Tab.1.center" timestamp="1578338502624">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.1.center/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state width="1214" height="484" key="GridCell.Tab.1.left" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.1.center/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502624" />
+    <state width="1222" height="345" key="GridCell.Tab.1.left" timestamp="1578338502624">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.1.left/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state width="1214" height="484" key="GridCell.Tab.1.right" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.1.left/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502624" />
+    <state width="1222" height="345" key="GridCell.Tab.1.right" timestamp="1578338502625">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.1.right/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state width="1214" height="484" key="GridCell.Tab.2.bottom" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.1.right/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502625" />
+    <state width="1222" height="345" key="GridCell.Tab.2.bottom" timestamp="1578338502625">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.2.bottom/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state width="1214" height="484" key="GridCell.Tab.2.center" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.2.bottom/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502625" />
+    <state width="1222" height="345" key="GridCell.Tab.2.center" timestamp="1578338502625">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.2.center/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state width="1214" height="484" key="GridCell.Tab.2.left" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.2.center/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502625" />
+    <state width="1222" height="345" key="GridCell.Tab.2.left" timestamp="1578338502625">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.2.left/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state width="1214" height="484" key="GridCell.Tab.2.right" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.2.left/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502625" />
+    <state width="1222" height="345" key="GridCell.Tab.2.right" timestamp="1578338502625">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.2.right/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state width="1214" height="484" key="GridCell.Tab.3.bottom" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.2.right/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502625" />
+    <state width="1222" height="345" key="GridCell.Tab.3.bottom" timestamp="1578338502625">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.3.bottom/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state width="1214" height="484" key="GridCell.Tab.3.center" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.3.bottom/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502625" />
+    <state width="1222" height="345" key="GridCell.Tab.3.center" timestamp="1578338502625">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.3.center/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state width="1214" height="484" key="GridCell.Tab.3.left" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.3.center/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502625" />
+    <state width="1222" height="345" key="GridCell.Tab.3.left" timestamp="1578338502625">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.3.left/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state width="1214" height="484" key="GridCell.Tab.3.right" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.3.left/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502625" />
+    <state width="1222" height="345" key="GridCell.Tab.3.right" timestamp="1578338502625">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.3.right/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state width="1214" height="484" key="GridCell.Tab.4.bottom" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.3.right/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502625" />
+    <state width="1222" height="345" key="GridCell.Tab.4.bottom" timestamp="1578338502625">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.4.bottom/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state width="1214" height="484" key="GridCell.Tab.4.center" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.4.bottom/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502625" />
+    <state width="1222" height="345" key="GridCell.Tab.4.center" timestamp="1578338502625">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.4.center/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state width="1214" height="484" key="GridCell.Tab.4.left" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.4.center/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502625" />
+    <state width="1222" height="345" key="GridCell.Tab.4.left" timestamp="1578338502625">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.4.left/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state width="1214" height="484" key="GridCell.Tab.4.right" timestamp="1578247106728">
+    <state width="1222" height="345" key="GridCell.Tab.4.left/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502625" />
+    <state width="1222" height="345" key="GridCell.Tab.4.right" timestamp="1578338502625">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1214" height="484" key="GridCell.Tab.4.right/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578247106728" />
-    <state x="1412" y="559" key="SettingsEditor" timestamp="1578048770483">
+    <state width="1222" height="345" key="GridCell.Tab.4.right/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578338502625" />
+    <state x="1412" y="559" key="SettingsEditor" timestamp="1578330089196">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1412" y="559" key="SettingsEditor/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578048770483" />
+    <state x="1412" y="559" key="SettingsEditor/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578330089196" />
     <state width="640" height="700" key="XDebugger.FullValuePopup" timestamp="1578244859835">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -226,10 +241,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1577" y="333" key="run.anything.popup/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1577794371225" />
-    <state x="1583" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1578052542454">
+    <state x="1583" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1578252311697">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1583" y="319" width="672" height="678" key="search.everywhere.popup/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578052542454" />
+    <state x="1583" y="319" width="672" height="678" key="search.everywhere.popup/-3840.0.1536.840/0.0.2560.1400@0.0.2560.1400" timestamp="1578252311697" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
